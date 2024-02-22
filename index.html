@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="title" content="Loo">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles.css">
+    <meta name="description" content="Loo is cool">
+    <meta name="language" content="English">
+    <meta name="author" content="LOST">
+    <link rel="website icon" href="pictures/logonobackground.png">
+</head>
+<body>
+    <li class="header"> Loo </li>
+    <nav>
+        <ul class="sidebar">
+            <li onclick="hidesidebar()"> <svg xmlns="http://www.w3.org/2000/svg" height="40" viewBox="0 -960 960 960" width="36"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg> </a></li>
+            <li><a href=""> About </a></li>
+            <li><a href=""> Contacts </a></li>
+            <li><a href=""> Projects </a></li>
+            <li><a href=""> Order </a></li>
+            <li><a href="login.html"> Login </a></li>
+        </ul>
+        <ul>
+            
+            <li class="hideOnMobile"><a href="#"> About </a></li>
+            <li class="hideOnMobile"> <a href="#"> Contacts </a></li>
+            <li class="hideOnMobile"> <a href="#"> Projects </a></li>
+            <li class="hideOnMobile"> <a href="#"> Order </a></li>
+            <li class="hideOnMobile"> <a href="#"> Login </a></li>
+            <li class="menu-button" onclick="showSidebar()"> <svg xmlns="http://www.w3.org/2000/svg" height="45" viewBox="0 -960 960 960" width="45"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+        </ul>
+    </nav>
+
+
+<script>
+    function showSidebar(){
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display =  'flex'
+    }
+    function hidesidebar(){
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display =  'none'
+    }
+</script>
+
+    <script src="java.js"></script>
+</body>
+</html>
