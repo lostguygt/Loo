@@ -1,5 +1,5 @@
 ![Header](https://i.imgur.com/InS4dn0.png)
-<h1 align="center">issa 😎</h1>
+<h1 align="center">issa</h1>
 <p align="center">Developer</p>
 <a href="https://github.com/LostGuyGT">
   <p align="center">
